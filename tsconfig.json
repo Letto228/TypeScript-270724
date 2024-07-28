@@ -6,7 +6,11 @@
     "allowJs": true,
     "strict": true,
     "esModuleInterop": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["./types"],
+    "types": ["app-window", "css-module", "external-library"]
   },
   "include": ["src"],
   "exclude": ["src/**/*.mock.ts"]
